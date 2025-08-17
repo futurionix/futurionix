@@ -1,0 +1,263 @@
+# Dependencies
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/.pnp
+**/.pnp.*
+**/yarn/*
+!**/yarn/patches
+!**/yarn/plugins
+!**/yarn/releases
+!**/yarn/versions
+
+# Environment variables
+**/.env*
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Next.js specific
+**/.next/
+**/out/
+**/build/
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Testing
+**/coverage/
+**/.nyc_output/
+
+# Production builds
+**/dist/
+**/build/
+
+# IDE and Editor files
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+
+# OS generated files
+**/.DS_Store
+**/.DS_Store?
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
+
+# Logs
+**/logs/
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/lerna-debug.log*
+
+# Runtime data
+**/pids/
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# Optional npm cache directory
+**/.npm
+
+# Optional REPL history
+**/.node_repl_history
+
+# Output of 'npm pack'
+**/*.tgz
+
+# dotenv environment variable files
+**/.env
+**/.env.development
+**/.env.test
+**/.env.production
+
+# Vercel
+**/.vercel
+
+# Certificates
+**/*.pem
+
+# Temporary folders
+**/tmp/
+**/temp/
+
+# Coverage reports
+**/coverage/
+
+# Storybook build outputs
+**/storybook-static/
+
+# ESLint cache
+**/.eslintcache
+
+# Prettier cache
+**/.prettiercache
+
+# TypeScript cache
+**/*.tsbuildinfo
+
+# Microbundle cache
+**/.rpt2_cache/
+**/.rts2_cache_cjs/
+**/.rts2_cache_es/
+**/.rts2_cache_umd/
+
+# Optional eslint cache
+**/.eslintcache
+
+# Turborepo cache
+**/.turbo
+
+# Nx cache
+**/.nx/cache
+
+# Python specific
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/*.so
+**/.Python
+**/build/
+**/develop-eggs/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
+**/MANIFEST
+**/.pytest_cache/
+**/.tox/
+**/.nox/
+**/.coverage
+**/.coverage.*
+**/htmlcov/
+**/.cache
+**/nosetests.xml
+**/coverage.xml
+**/*.cover
+**/.hypothesis/
+
+# Java specific
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.nar
+**/hs_err_pid*
+**/target/
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+**/.gradle/
+**/gradle/
+**/gradlew
+**/gradlew.bat
+
+# .NET specific
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+**/.vs/
+**/packages/
+**/*.nupkg
+**/*.snupkg
+
+# Go specific
+**/vendor/
+**/*.exe
+**/*.exe~
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.test
+**/*.out
+**/go.work
+
+# Rust specific
+**/target/
+**/*.rs.bk
+**/Cargo.lock
+
+# Ruby specific
+**/*.gem
+**/*.rbc
+**/.bundle/
+**/vendor/bundle/
+**/.yardoc
+**/_yardoc/
+**/doc/
+**/.sass-cache/
+**/.jekyll-cache/
+**/.jekyll-metadata
+
+# PHP specific
+**/vendor/
+**/composer.lock
+**/.phpunit.result.cache
+
+# Docker
+**/Dockerfile.prod
+**/.dockerignore
+**/docker-compose.override.yml
+
+# Kubernetes
+**/secrets.yaml
+**/configmap.yaml
+
+# Database
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Archives
+**/*.zip
+**/*.rar
+**/*.7z
+**/*.tar.gz
+**/*.tar.bz2
+
+# Backup files
+**/*.bak
+**/*.backup
+**/*.old
+**/*.orig
+
+# Lock files (optional - uncomment if needed)
+# **/package-lock.json
+# **/yarn.lock
+# **/pnpm-lock.yaml
+
+# Cloud provider specific
+**/.aws/
+**/.azure/
+**/.gcp/
+
+# Terraform
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+**/.terraform/
+
+# Ansible
+**/*.retry
+
+# Monitoring and analytics
+**/.nyc_output/
+**/lib-cov/
